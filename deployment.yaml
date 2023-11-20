@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: petclinic-container
-        image: ooghenekaro/petclinic:latest
+        image: doingsllc/spring-petclinic:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
